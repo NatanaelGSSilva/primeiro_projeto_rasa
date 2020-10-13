@@ -1,56 +1,80 @@
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
+## intent:cumprimentar
+- olá
+- ola
+- oi
+- bom dia
+- boa tarde
+- boa noite
 
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+## intent:despedir
+- tchau
+- até mais
+- ate mais
+- ate mais tarde
+- ate de noite
+- até de noite
+- até amanha
+- ate amanha
 
-## intent:affirm
+## intent:consultar
+- cep [96490000](cep)
+- [01001000](cep)
+- quero consultar o cep [96490-000](cep)
+- quero saber o cep [96490-000](cep)
+- consultar o cep  [96490-000](cep)
+
+## intent:confirmar
+- sim
+- de fato
+- claro
+- correto
+- com certeza
+- ok
 - yes
-- indeed
-- of course
-- that sounds good
-- correct
+- ss
+- s
 
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
+## intent:negar
+- não
+- nunca
+- acho que não
+- não gosto disso
+- de jeito nenhum
+- na verdade não
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
+## intent:bom_humor
+- perfeito
+- muito bem
+- ótimo
+- ótima
+- maravilhoso
+- eu estou muito bem
+- eu estou otimo
+- eu estou bem
 
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
+## intent:mal_humor
+- mal
+- muito mal
+<!-- - unhappy
 - bad
 - very bad
 - awful
 - terrible
 - not very good
 - extremely sad
-- so sad
+- so sad -->
 
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+## intent:agradecer
+- muito obrigado
+- muito obrigada
+- excelente
+- valeu
+- obrigado
+- obrigado boot
+- obrigada boot
+
+<!-- ## intent:consultar
+- quero saber o nome da {"entidy": "cidade"}
+- desejo saber o nome da {"entidy": "cidade"}
+- por favor  preciso saber o nome {"entidy": "cidade"}
+- por favor  preciso saber o nome {"entidy": "cidade"} -->

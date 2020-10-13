@@ -2,24 +2,34 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- greet
-- goodbye
-- affirm
-- deny
-- mood_great
-- mood_unhappy
-- bot_challenge
+- cumprimentar
+- despedir
+- consultar
+- confirmar
+- negar
+- bom_humor
+- mal_humor
+- agradecer
+entities:
+- cep
 responses:
-  utter_greet:
-  - text: Hey! How are you?
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
-  utter_goodbye:
-  - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  utter_saudacao:
+  - text: Olá! Sou um assistente de CEP de Cidade .Digite seu CEP para saber o nome da cidade?
+  utter_despedida:
+  - text: Ok! Muito obrigado. Até mais!
+  - text: Ok! Muito obrigado. Até logo!
+  utter_info:
+  - text: Ainda não estou pronto para fazer isso...
+  utter_eusouumbot:
+  - text: Eu sou um bot desenvolvido em Rasa!
+  utter_possoajudar:
+  - text: Posso ajudar em mais alguma coisa?
+  - text: Posso te ajudar em mais alguma coisa?  
+  utter_default:
+  - text: Desculpa, mas não entendi sua frase. Poderia repetir com palavras mais claras?
+  - text: Acho que não captei sua mensagem. Poderia repetir com palavras mais claras?
+actions:
+- action_cidade
+
+
+    
